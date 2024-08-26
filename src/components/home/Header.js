@@ -1,0 +1,38 @@
+import { Typewriter } from "react-simple-typewriter";
+
+function Header() {
+  return (
+    <section className="h-screen bg-white dark:bg-gray-900 dark:text-white">
+      <section className="bg-white dark:bg-gray-900">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            Optimiza la gestión de: <br/>
+            <Typewriter
+              words={["Reclamos", "Felicitaciones", "Solicitudes", "Sugerencias"]}
+              loop={0}
+              cursor
+              cursorStyle="_"
+              typeSpeed={50}
+              deleteSpeed={50}
+              delaySpeed={1200}
+            />
+          </h1>
+          <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
+            Mejora considerablemente la gestión de las solicitudes de OIRS
+            
+          </p>
+          <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+            <a
+              href="/"
+              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+            >
+              Iniciar sesión
+            </a>
+          </div>
+        </div>
+      </section>
+    </section>
+  );
+}
+
+export default Header;
