@@ -1,0 +1,274 @@
+[
+    {
+        "model": "citizenRequests.tiposolicitud",
+        "pk": 1,
+        "fields": {
+            "nombre": "Reclamo"
+        }
+    },
+    {
+        "model": "citizenRequests.tiposolicitud",
+        "pk": 2,
+        "fields": {
+            "nombre": "Sugerencia"
+        }
+    },
+    {
+        "model": "citizenRequests.tiposolicitud",
+        "pk": 3,
+        "fields": {
+            "nombre": "Felicitación"
+        }
+    },
+    {
+        "model": "citizenRequests.tiposolicitud",
+        "pk": 4,
+        "fields": {
+            "nombre": "Solicitud"
+        }
+    },
+    {
+        "model": "citizenRequests.tiposolicitud",
+        "pk": 5,
+        "fields": {
+            "nombre": "Consulta"
+        }
+    },
+    {
+        "model": "citizenRequests.viaingreso",
+        "pk": 1,
+        "fields": {
+            "nombre": "Presencial"
+        }
+    },
+    {
+        "model": "citizenRequests.viaingreso",
+        "pk": 2,
+        "fields": {
+            "nombre": "Correo Electrónico"
+        }
+    },
+    {
+        "model": "citizenRequests.viaingreso",
+        "pk": 3,
+        "fields": {
+            "nombre": "Alo Santiago"
+        }
+    },
+    {
+        "model": "citizenRequests.viaingreso",
+        "pk": 4,
+        "fields": {
+            "nombre": "Plataforma OIRS"
+        }
+    },
+    {
+        "model": "citizenRequests.area",
+        "pk": 1,
+        "fields": {
+            "nombre": "Atención Clínica"
+        }
+    },
+    {
+        "model": "citizenRequests.area",
+        "pk": 2,
+        "fields": {
+            "nombre": "SOME"
+        }
+    },
+    {
+        "model": "citizenRequests.area",
+        "pk": 3,
+        "fields": {
+            "nombre": "Farmacia"
+        }
+    },
+    {
+        "model": "citizenRequests.area",
+        "pk": 4,
+        "fields": {
+            "nombre": "Vacunatorio"
+        }
+    },
+    {
+        "model": "citizenRequests.area",
+        "pk": 5,
+        "fields": {
+            "nombre": "Tratamiento"
+        }
+    },
+    {
+        "model": "citizenRequests.area",
+        "pk": 6,
+        "fields": {
+            "nombre": "Bodega leche"
+        }
+    },
+    {
+        "model": "citizenRequests.sector",
+        "pk": 1,
+        "fields": {
+            "nombre": "Sector 1"
+        }
+    },
+    {
+        "model": "citizenRequests.sector",
+        "pk": 2,
+        "fields": {
+            "nombre": "Parque Forestal"
+        }
+    },
+    {
+        "model": "citizenRequests.sector",
+        "pk": 3,
+        "fields": {
+            "nombre": "San Borja"
+        }
+    },
+    {
+        "model": "citizenRequests.sector",
+        "pk": 4,
+        "fields": {
+            "nombre": "Coquimbo"
+        }
+    },
+    {
+        "model": "citizenRequests.sector",
+        "pk": 5,
+        "fields": {
+            "nombre": "Gacitua"
+        }
+    },
+    {
+        "model": "citizenRequests.sector",
+        "pk": 6,
+        "fields": {
+            "nombre": "Davila Larrain"
+        }
+    },
+    {
+        "model": "citizenRequests.genero",
+        "pk": 1,
+        "fields": {
+            "nombre": "Femenino"
+        }
+    },
+    {
+        "model": "citizenRequests.genero",
+        "pk": 2,
+        "fields": {
+            "nombre": "Masculino"
+        }
+    },
+    {
+        "model": "citizenRequests.genero",
+        "pk": 3,
+        "fields": {
+            "nombre": "Trans Femenino"
+        }
+    },
+    {
+        "model": "citizenRequests.genero",
+        "pk": 4,
+        "fields": {
+            "nombre": "Trans Masculino"
+        }
+    },
+    {
+        "model": "citizenRequests.estadorespuesta",
+        "pk": 1,
+        "fields": {
+            "nombre": "Pendiente"
+        }
+    },
+    {
+        "model": "citizenRequests.estadorespuesta",
+        "pk": 2,
+        "fields": {
+            "nombre": "Enviada a Funcionario"
+        }
+    },
+    {
+        "model": "citizenRequests.estadorespuesta",
+        "pk": 3,
+        "fields": {
+            "nombre": "Enviada a Dirección"
+        }
+    },
+    {
+        "model": "citizenRequests.estadorespuesta",
+        "pk": 4,
+        "fields": {
+            "nombre": "Finalizada"
+        }
+    },
+    {
+        "model": "citizenRequests.tiporespuesta",
+        "pk": 1,
+        "fields": {
+            "nombre": "Carta"
+        }
+    },
+    {
+        "model": "citizenRequests.tiporespuesta",
+        "pk": 2,
+        "fields": {
+            "nombre": "Correo Electrónico"
+        }
+    },
+    {
+        "model": "citizenRequests.tiporespuesta",
+        "pk": 3,
+        "fields": {
+            "nombre": "Plataforma OIRS"
+        }
+    },
+    {
+        "model": "citizenRequests.tiporespuesta",
+        "pk": 4,
+        "fields": {
+            "nombre": "Entrega presencial"
+        }
+    },
+    {
+        "model": "citizenRequests.atingencia",
+        "pk": 1,
+        "fields": {
+            "nombre": "Atingente"
+        }
+    },
+    {
+        "model": "citizenRequests.atingencia",
+        "pk": 2,
+        "fields": {
+            "nombre": "No Atingente"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "username": "admin",
+            "is_superuser": true,
+            "is_staff": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "username": "user1",
+            "is_superuser": false,
+            "is_staff": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "username": "user2",
+            "is_superuser": false,
+            "is_staff": true
+        }
+    }
+]
